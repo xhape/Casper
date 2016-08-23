@@ -2235,6 +2235,7 @@ body:not(.post-template) .post-title {
     }
 
     .main-nav .nav {
+		position: absolute;
         opacity: 1;
         background: none;
         width: 700px;
