@@ -2225,3 +2225,55 @@ body:not(.post-template) .post-title {
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
    ========================================================================== */
+
+/** LinkedMinistries Styles */
+
+/** Phones */
+@media screen and (min-width: 760px) {
+    .menu-button {
+        display: none;
+    }
+
+    .main-nav .nav {
+        opacity: 1;
+        background: none;
+        width: 700px;
+    }
+
+    .main-nav .nav .nav-title {
+        display: none;
+    }
+
+    .main-nav .nav ul {
+        padding: 40px 0;
+    }
+
+    .main-nav .nav li a {
+        text-decoration: none;
+        display: inline;
+        padding: 0 20px;
+    }
+
+    .main-nav .nav li {
+        display: inline;
+    }
+
+    .main-nav .nav li:before {
+        content: none;
+    }
+
+    .main-nav .nav li a:after {
+        border-bottom: 0px solid;
+        content: none;
+    }
+
+    .main-nav .subscribe-button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 761px) {
+    .main-nav .nav {
+        display: none;
+    }
+}
